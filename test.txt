@@ -1,0 +1,4 @@
+select * from settle_item_detail_202304
+where event_type_id in(1160306,140009)
+or amount_base_desc like '%3410703%'
+or amount_base_desc like '%3410692%'
